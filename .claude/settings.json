@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 scripts/generate_audio.py --delay 0.5)",
+      "Bash(pip3 install *)",
+      "Bash(python3 -c \"import openai; print\\(openai.__version__\\)\")",
+      "Bash(conda install *)",
+      "Bash(brew list *)",
+      "Bash(PIP_CERT=/dev/null pip3 install openai)",
+      "Bash(uv pip *)",
+      "Bash(pip3 config *)",
+      "Bash(SSL_CERT_FILE=\"\" pip3 install openai)",
+      "Bash(python3 -m pip install --cert /dev/null openai)",
+      "Bash(brew install *)",
+      "Bash(node -e \"require\\('./lib/words_h376_h500.ts'\\)\")",
+      "Bash(grep -oh \"word: '[^']*'\" /Users/willight/ClaudeProjects/kaoyan-english/lib/words.ts /Users/willight/ClaudeProjects/kaoyan-english/lib/words_m021_m120.ts /Users/willight/ClaudeProjects/kaoyan-english/lib/words_m121_m220.ts /Users/willight/ClaudeProjects/kaoyan-english/lib/words_m221_m320.ts /Users/willight/ClaudeProjects/kaoyan-english/lib/words_l011_l110.ts /Users/willight/ClaudeProjects/kaoyan-english/lib/words_l111_l210.ts /Users/willight/ClaudeProjects/kaoyan-english/lib/words_h076_h175.ts /Users/willight/ClaudeProjects/kaoyan-english/lib/words_h176_h275.ts /Users/willight/ClaudeProjects/kaoyan-english/lib/words_h276_h375.ts 2>/dev/null | sed \"s/word: '//;s/'//\" | sort -u > /tmp/existing_words.txt && cat /tmp/existing_words.txt | wc -l)",
+      "Read(//tmp/**)",
+      "Bash(python3 -c ' *)",
+      "Bash(node -e \"const m = require\\('./lib/words_m321_m420'\\); console.log\\('Word count:', m.WORDS_M321_M420.length\\); console.log\\('First:', m.WORDS_M321_M420[0].id, m.WORDS_M321_M420[0].word\\); console.log\\('Last:', m.WORDS_M321_M420[99].id, m.WORDS_M321_M420[99].word\\);\")",
+      "Bash(npx tsx *)",
+      "Bash(python3 -c \" *)",
+      "Bash(node -e ' *)",
+      "Bash(awk '{sum += $1} END {print \"Total words:\", sum}')",
+      "Bash(npm run *)",
+      "Bash(awk -F: '{sum+=$2} END {print \"总词数: \" sum}')",
+      "Bash(grep -E \"\\(h|m|l\\)[0-9]+$\")",
+      "Bash(grep -E \"\\(l|m|h\\)[0-9]+$\")",
+      "Bash(python3 generate_audio.py --delay 1.5)",
+      "Bash(git commit -m 'chore: 将音频文件从git中排除（448MB太大无法推送） *)",
+      "Bash(git gc *)",
+      "Bash(git checkout *)",
+      "Bash(git commit -m 'feat: 考研英语词库 2346词 *)"
+    ],
+    "additionalDirectories": [
+      "/tmp"
+    ]
+  }
+}
