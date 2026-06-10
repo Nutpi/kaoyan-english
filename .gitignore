@@ -40,5 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Audio files (too large for GitHub, use other storage)
+
+# Audio files - stored locally only
 public/audio/
