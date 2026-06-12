@@ -20,7 +20,7 @@ except ImportError:
     sys.exit(1)
 
 # ========== 配置 ==========
-MIMO_API_KEY = "tp-ch367g85qdx6uxc1tlezpfu5d70bu85gftack9kftvignfod"
+MIMO_API_KEY = "tp-cupq9hr38507e2eumh08vafvcwwljkcdr4uzz2zo4bhkzt7k"
 MIMO_BASE_URL = "https://token-plan-cn.xiaomimimo.com/v1"
 
 SCRIPT_DIR = Path(__file__).parent

@@ -31,6 +31,27 @@ import { WORDS_M731_M820 } from './words_m731_m820';
 import { WORDS_M821_M910 } from './words_m821_m910';
 import { WORDS_L601_L700 } from './words_l601_l700';
 import { WORDS_L701_L750 } from './words_l701_l750';
+import { WORDS_H841_H930 } from './words_h841_h930';
+import { WORDS_H931_H1022 } from './words_h931_h1022';
+import { WORDS_M911_M1000 } from './words_m911_m1000';
+import { WORDS_M1001_M1092 } from './words_m1001_m1092';
+import { WORDS_L750_L840 } from './words_l750_l840';
+import { WORDS_L841_L932 } from './words_l841_l932';
+import { WORDS_H1023_H1114 } from './words_h1023_h1114';
+import { WORDS_H1115_H1230 } from './words_h1115_h1230';
+import { WORDS_NEW_01 } from './words_new_01';
+import { WORDS_NEW_02 } from './words_new_02';
+import { WORDS_NEW_03 } from './words_new_03';
+import { WORDS_NEW_04 } from './words_new_04';
+import { WORDS_NEW_05 } from './words_new_05';
+import { WORDS_NEW_06 } from './words_new_06';
+import { WORDS_NEW_07 } from './words_new_07';
+import { WORDS_NEW_08 } from './words_new_08';
+import { WORDS_NEW_09 } from './words_new_09';
+import { WORDS_NEW_10 } from './words_new_10';
+import { WORDS_NEW_11 } from './words_new_11';
+import { WORDS_NEW_12 } from './words_new_12';
+import { WORDS_NEW_13 } from './words_new_13';
 
 const _BASE_WORDS: Word[] = [
   // ==================== 高频词汇 (high) ====================
@@ -146,7 +167,7 @@ const _BASE_WORDS: Word[] = [
 ];
 
 // 合并扩展词库
-export const WORDS: Word[] = [..._BASE_WORDS, ...WORDS_H076_H175, ...WORDS_M021_M120, ...WORDS_L011_L110, ...WORDS_H176_H275, ...WORDS_H276_H375, ...WORDS_M121_M220, ...WORDS_M221_M320, ...WORDS_L111_L210, ...WORDS_H376_H500, ...WORDS_M321_M420, ...WORDS_M421_M550, ...WORDS_L211_L310, ...WORDS_L311_L410, ...WORDS_L411_L450, ...WORDS_H501_H540, ...WORDS_H541_H600, ...WORDS_H601_H670, ...WORDS_M551_M650, ...WORDS_M651_M730, ...WORDS_L451_L550, ...WORDS_L551_L600, ...WORDS_H671_H750, ...WORDS_H751_H840, ...WORDS_M731_M820, ...WORDS_M821_M910, ...WORDS_L601_L700, ...WORDS_L701_L750];
+export const WORDS: Word[] = [..._BASE_WORDS, ...WORDS_H076_H175, ...WORDS_M021_M120, ...WORDS_L011_L110, ...WORDS_H176_H275, ...WORDS_H276_H375, ...WORDS_M121_M220, ...WORDS_M221_M320, ...WORDS_L111_L210, ...WORDS_H376_H500, ...WORDS_M321_M420, ...WORDS_M421_M550, ...WORDS_L211_L310, ...WORDS_L311_L410, ...WORDS_L411_L450, ...WORDS_H501_H540, ...WORDS_H541_H600, ...WORDS_H601_H670, ...WORDS_M551_M650, ...WORDS_M651_M730, ...WORDS_L451_L550, ...WORDS_L551_L600, ...WORDS_H671_H750, ...WORDS_H751_H840, ...WORDS_M731_M820, ...WORDS_M821_M910, ...WORDS_L601_L700, ...WORDS_L701_L750, ...WORDS_H841_H930, ...WORDS_H931_H1022, ...WORDS_M911_M1000, ...WORDS_M1001_M1092, ...WORDS_L750_L840, ...WORDS_L841_L932, ...WORDS_H1023_H1114, ...WORDS_NEW_01, ...WORDS_NEW_02, ...WORDS_NEW_03, ...WORDS_NEW_04, ...WORDS_NEW_05, ...WORDS_NEW_06, ...WORDS_NEW_07, ...WORDS_NEW_08, ...WORDS_NEW_09, ...WORDS_NEW_10, ...WORDS_NEW_11, ...WORDS_NEW_12, ...WORDS_NEW_13];
 
 /** 按等级分组获取单词 */
 export function getWordsByLevel(level: 'high' | 'mid' | 'low'): Word[] {
